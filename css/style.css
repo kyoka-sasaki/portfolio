@@ -172,7 +172,7 @@ a:hover {
     max-width: 1300px;
     color: #808080;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 20px 0;
     top: 0;
     font-family: serif;
     background: #fff;
@@ -513,6 +513,37 @@ p.more {
     border: 1px solid #e0e0e0;
     border-radius: 25px;
     box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.button.button-border {
+    border: 2px solid #444;
+    background-color: transparent;
+    color: #333;
+    line-height: 36px;
+    font-weight: 600;
+    text-shadow: none;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 0 22px;
+    font-size: 14px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button.button-border.button-fill {
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+.button.button-border.button-fill span {
+    display: block;
+    position: relative;
 }
 
 @media screen and (max-width: 1299px) {
