@@ -437,8 +437,8 @@ input.font-awesome {
 }
 
 .article_title {
-    background: linear-gradient(transparent 60%, #ffff66 60%);
-    font-size: 30px;
+   /* background: linear-gradient(transparent 60%, #ffff66 60%); */
+    font-size: 30px; 
 }
 
 .article_title::before {
